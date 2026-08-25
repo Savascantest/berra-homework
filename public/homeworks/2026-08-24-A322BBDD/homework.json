@@ -23,8 +23,8 @@
         "Useful lesson language: “May I order, please?”, “Can I have a chicken salad?”, “Anything else?”, “Enjoy your meal.” and “Can I get the bill, please?”",
         "Diet and preference words: guilty pleasure, salmon, French fries, biscuits, strawberry, grape, peach, honey, butter, crisps, carrot and nuts."
       ],
-      "remember": "Use something in positive statements, anything in most questions and negatives, and nothing when the verb itself is positive.",
-      "watchOut": "Do not use two negatives together: “I don’t want anything” or “I want nothing,” not “I don’t want nothing.”",
+      "remember": "Olumlu cümlelerde something, çoğu soru ve olumsuz cümlede anything kullanılır. Fiil olumlu olduğu hâlde cümleye olumsuz anlam vermek için nothing kullanılır.",
+      "watchOut": "İki olumsuz yapıyı birlikte kullanma: “I don’t want anything” veya “I want nothing” doğrudur; “I don’t want nothing” yanlıştır.",
       "vocabulary": [
         { "word": "seafood", "meaning": "food from the sea, such as fish or shellfish", "example": "My favorite food is seafood." },
         { "word": "starter", "meaning": "a small first course", "example": "What would you like for a starter?" },
@@ -40,9 +40,9 @@
         { "word": "chef", "meaning": "a professional cook", "example": "The chef prepared the main course." }
       ],
       "grammar": [
-        { "title": "Indefinite pronouns", "rule": "Use someone/something/somewhere mainly in positive ideas; anyone/anything/anywhere mainly in questions and negatives; no one/nothing/nowhere gives a negative meaning with a positive verb.", "examples": ["Would you like something to drink?", "Do you want anything else?", "I did not order anything.", "There is nothing on the menu for me."] },
-        { "title": "Many, much and a lot of", "rule": "Use many with countable plural nouns, much with uncountable nouns, and a lot of with both. Much is especially common in questions and negatives.", "examples": ["How many apples do we need?", "How much oil do we need?", "We have a lot of tomatoes.", "I do not eat much chocolate."] },
-        { "title": "Countable or uncountable?", "rule": "Individual items can be counted, but substances and general food categories often cannot.", "examples": ["one hamburger / two hamburgers", "some meat", "an egg / three eggs", "some bread"] }
+        { "title": "Indefinite pronouns", "rule": "Someone/something/somewhere çoğunlukla olumlu anlamlarda; anyone/anything/anywhere ise çoğunlukla soru ve olumsuz cümlelerde kullanılır. No one/nothing/nowhere, olumlu yapıdaki bir fiille birlikte cümleye olumsuz anlam verir.", "examples": ["Would you like something to drink?", "Do you want anything else?", "I did not order anything.", "There is nothing on the menu for me."] },
+        { "title": "Many, much and a lot of", "rule": "Many sayılabilen çoğul isimlerle, much sayılamayan isimlerle kullanılır. A lot of ise her ikisiyle de kullanılabilir. Much özellikle soru ve olumsuz cümlelerde yaygındır.", "examples": ["How many apples do we need?", "How much oil do we need?", "We have a lot of tomatoes.", "I do not eat much chocolate."] },
+        { "title": "Countable or uncountable?", "rule": "Tek tek nesneler sayılabilir; ancak maddeler ve genel yiyecek kategorileri çoğu zaman sayılamaz.", "examples": ["one hamburger / two hamburgers", "some meat", "an egg / three eggs", "some bread"] }
       ],
       "practice": [
         { "prompt": "Would you like ___ else?", "options": ["anything", "nothing", "nowhere"], "answer": "anything", "hint": "This is a question." },
@@ -89,8 +89,8 @@
         "Question distinction from class: “Where can you read a biography?” asks for a place, not which biography you read.",
         "Useful model: “I can read the biography of a famous person in the library.”"
       ],
-      "remember": "Use was with I/he/she/it and were with you/we/they. In the passive expression be born, choose was or were: She was born; they were born.",
-      "watchOut": "Do not add a time preposition before last or yesterday: yesterday, last week, last year—not on yesterday or in last year.",
+      "remember": "I/he/she/it ile was; you/we/they ile were kullanılır. Be born kalıbında özneye göre was veya were seçilir: She was born; they were born.",
+      "watchOut": "Last veya yesterday ifadelerinden önce zaman edatı kullanma: yesterday, last week ve last year doğrudur; on yesterday veya in last year yanlıştır.",
       "vocabulary": [
         { "word": "be born", "meaning": "to begin life", "example": "The poet was born in 1990." },
         { "word": "biography", "meaning": "the story of a person's life written by someone else", "example": "I read a biography in the library." },
@@ -104,10 +104,10 @@
         { "word": "compose", "meaning": "to create music", "example": "She composed music for many listeners." }
       ],
       "grammar": [
-        { "title": "Past Simple of BE", "rule": "Affirmative: I/he/she/it was; you/we/they were. Negative: was not/wasn't and were not/weren't. Questions invert BE and the subject.", "examples": ["She was a poet.", "They were not rich.", "Was he successful?", "Where were the listeners?"] },
-        { "title": "Be born", "rule": "English normally uses was/were born, not born alone and not did born.", "examples": ["He was born in May.", "They were born in 2001."] },
-        { "title": "Prepositions of time", "rule": "Use at for exact clock times, on for days and dates, and in for months, years and longer periods.", "examples": ["at 6:00", "on Friday", "on 24 August", "in May", "in 1990", "in the morning"] },
-        { "title": "No preposition", "rule": "Use yesterday, last night/week/month/year and this/next expressions without at, on or in.", "examples": ["yesterday", "last year", "this morning", "next Friday"] }
+        { "title": "Past Simple of BE", "rule": "Olumlu cümlede I/he/she/it ile was; you/we/they ile were kullanılır. Olumsuz biçimler was not/wasn’t ve were not/weren’t şeklindedir. Sorularda BE fiili öznenin önüne geçer.", "examples": ["She was a poet.", "They were not rich.", "Was he successful?", "Where were the listeners?"] },
+        { "title": "Be born", "rule": "İngilizcede be born kalıbı geçmiş zamanda normalde was/were born şeklinde kullanılır; born tek başına veya did born şeklinde kullanılmaz.", "examples": ["He was born in May.", "They were born in 2001."] },
+        { "title": "Prepositions of time", "rule": "Kesin saatlerle at, günler ve tarihlerle on, aylar, yıllar ve daha uzun zaman dilimleriyle in kullanılır.", "examples": ["at 6:00", "on Friday", "on 24 August", "in May", "in 1990", "in the morning"] },
+        { "title": "No preposition", "rule": "Yesterday; last night/week/month/year ve this/next ile kurulan zaman ifadeleri at, on veya in almadan kullanılır.", "examples": ["yesterday", "last year", "this morning", "next Friday"] }
       ],
       "practice": [
         { "prompt": "The poet ___ born in 1985.", "options": ["was", "were", "did"], "answer": "was", "hint": "The poet = he or she." },
@@ -154,8 +154,8 @@
         "Past Simple questions and negatives use did/didn't plus the base form: Did she compose? She didn't compose.",
         "The learner successfully recalled several irregular pairs but needed more contextual sentence practice."
       ],
-      "remember": "After did or didn't, return the main verb to its base form: Did he go? He didn't go.",
-      "watchOut": "Spelling changes matter: marry → married, die → died, promise → promised. Irregular forms must be learned as pairs.",
+      "remember": "Did veya didn’t sonrasında ana fiil yalın hâline döner: Did he go? He didn’t go.",
+      "watchOut": "Yazım değişikliklerine dikkat et: marry → married, die → died, promise → promised. Düzensiz fiillerin yalın ve geçmiş zaman biçimleri birlikte öğrenilmelidir.",
       "vocabulary": [
         { "word": "become → became", "meaning": "begin to be", "example": "She became successful." },
         { "word": "buy → bought", "meaning": "get something by paying", "example": "They bought him a new car." },
@@ -169,9 +169,9 @@
         { "word": "think → thought", "meaning": "have an idea or opinion", "example": "I thought the dish was expensive." }
       ],
       "grammar": [
-        { "title": "Regular Past Simple", "rule": "Add -ed to most verbs. Use -d after final e, change consonant + y to -ied, and double some final consonants after a short stressed vowel.", "examples": ["work → worked", "promise → promised", "compose → composed", "marry → married", "die → died"] },
-        { "title": "Irregular Past Simple", "rule": "Irregular verbs do not follow one spelling rule, so learn the base and past forms together.", "examples": ["buy → bought", "see → saw", "take → took", "tell → told", "think → thought"] },
-        { "title": "Questions and negatives", "rule": "Use did + subject + base verb for questions and subject + didn't + base verb for negatives.", "examples": ["Did she buy bread?", "She didn't buy bread.", "What did he say?"] }
+        { "title": "Regular Past Simple", "rule": "Çoğu fiile -ed eklenir. Son harfi e olan fiillere -d eklenir; sessiz harf + y ile bitenlerde y, -ied olur. Kısa ve vurgulu bir ünlüden sonra bazı son sessiz harfler çift yazılır.", "examples": ["work → worked", "promise → promised", "compose → composed", "marry → married", "die → died"] },
+        { "title": "Irregular Past Simple", "rule": "Düzensiz fiiller tek bir yazım kuralını izlemez. Bu nedenle fiilin yalın hâli ile geçmiş zaman biçimini birlikte öğren.", "examples": ["buy → bought", "see → saw", "take → took", "tell → told", "think → thought"] },
+        { "title": "Questions and negatives", "rule": "Sorularda did + özne + fiilin yalın hâli; olumsuz cümlelerde özne + didn’t + fiilin yalın hâli kullanılır.", "examples": ["Did she buy bread?", "She didn't buy bread.", "What did he say?"] }
       ],
       "practice": [
         { "prompt": "Yesterday she ___ a new book.", "options": ["bought", "buyed", "buy"], "answer": "bought", "hint": "Buy is irregular." },

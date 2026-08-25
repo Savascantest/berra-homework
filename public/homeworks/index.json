@@ -1,0 +1,13 @@
+{
+  "student": "Berra",
+  "defaultLessonId": "2026-08-24-A322BBDD",
+  "lessons": [
+    {
+      "id": "2026-08-24-A322BBDD",
+      "date": "2026-08-24",
+      "title": "Food, Biographies & Past-Time Revision",
+      "meetingUuid": "A322BBDD-5409-4B58-9940-645516EF4CA2",
+      "path": "2026-08-24-A322BBDD/homework.json"
+    }
+  ]
+}

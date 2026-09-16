@@ -1,16 +1,10 @@
 {
-  "id": "2026-08-24-A322BBDD",
+  "id": "2026-08-24-ddzldq4usc",
   "date": "2026-08-24",
   "dateLabel": "24 August 2026",
   "student": "Berra",
-  "meetingUuid": "A322BBDD-5409-4B58-9940-645516EF4CA2",
   "title": "Food, Biographies & Past-Time Revision",
   "subtitle": "Three focused revision units from your lesson",
-  "teacherNote": {
-    "detected": true,
-    "applied": true,
-    "summary": "Use three combined units; revise all lesson vocabulary in context, prioritize difficult words in vocabulary exercises, group indefinite pronouns with many/much/a lot, teach past BE with time prepositions, and combine regular and irregular Past Simple."
-  },
   "units": [
     {
       "id": "food-restaurant",

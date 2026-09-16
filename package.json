@@ -6,6 +6,8 @@
   "scripts": {
     "homeworks:index": "node scripts/build-homework-index.mjs",
     "validate": "node scripts/validate-homeworks.mjs",
+    "test": "node --test tests/*.test.mjs",
+    "test:privacy": "node --test tests/public-package-privacy.test.mjs",
     "dev": "npm run homeworks:index && vite",
     "build": "npm run homeworks:index && npm run validate && vite build",
     "preview": "vite preview"

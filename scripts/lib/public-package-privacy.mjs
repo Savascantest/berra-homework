@@ -1,4 +1,6 @@
-const PROHIBITED_KEY = /^(meetinguuid|meetingid|teachernote|teachernotes|transcript|transcriptid|sourceid|sourceids|lessonrecord|lessonrecordid|routerrun|routerstate|executionreceipt|taskid|learnerstate|studentprofile|privateplanning|planningmetadata|sourcehash|sourcehashes|privatepath|filesystempath)$/i;
+import { isFuturePackage, validateFuturePackage } from './architecture-v1-package.mjs';
+
+const PROHIBITED_KEY = /^(meetinguuid|meetingid|teachernote|teachernotes|transcript|transcriptid|sourceid|sourceids|lessonrecord|lessonrecordid|routerrun|routerstate|executionreceipt|taskid|learnerstate|studentprofile|privateplanning|planningmetadata|sourcehash|sourcehashes|privatepath|filesystempath|identityverified|identityverification|identityprovenance)$/i;
 const UUID = /\b[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}\b/i;
 const PRIVATE_PATH = /(?:^[a-z]:[\\/]|(?:^|[\\/])(?:work[\\/]private|Users|home)(?:[\\/]|$))/i;
 const SAFE_ID = /^\d{4}-\d{2}-\d{2}-[a-z0-9]{10,24}$/;
@@ -36,6 +38,7 @@ export function validatePackage(data, folderName = data?.id) {
   if (!data || typeof data !== 'object') return [...errors, `${folderName}: package must be an object`];
   if (!SAFE_ID.test(data.id || '')) errors.push(`${folderName}: package id must use YYYY-MM-DD-<10-24 lowercase alphanumeric opaque suffix>`);
   if (folderName !== data.id) errors.push(`${folderName}: folder name must match public package id`);
+  if (isFuturePackage(data)) return [...errors, ...validateFuturePackage(data, folderName)];
   if (!Array.isArray(data.units) || data.units.length !== 3) errors.push(`${folderName}: expected three historical units`);
   for (const unit of data.units || []) {
     for (const key of ['notes', 'vocabulary', 'grammar', 'practice', 'reading', 'test']) {

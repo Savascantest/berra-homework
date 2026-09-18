@@ -1,6 +1,7 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import { validatePackage, validatePublicData } from './lib/public-package-privacy.mjs';
+import { publicIndexEntry } from './lib/architecture-v1-package.mjs';
 
 const root = path.resolve('public/homeworks');
 const lessons = fs.readdirSync(root, { withFileTypes: true })
@@ -11,7 +12,7 @@ const lessons = fs.readdirSync(root, { withFileTypes: true })
     const data = JSON.parse(fs.readFileSync(file, 'utf8'));
     const errors = validatePackage(data, entry.name);
     if (errors.length) throw new Error(`Invalid public package ${entry.name}: ${errors.join('; ')}`);
-    return { id: data.id, date: data.date, title: data.title, path: `${entry.name}/homework.json` };
+    return publicIndexEntry(data, entry.name);
   })
   .filter(Boolean)
   .sort((a, b) => b.date.localeCompare(a.date) || b.id.localeCompare(a.id));

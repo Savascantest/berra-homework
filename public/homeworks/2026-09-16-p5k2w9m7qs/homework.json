@@ -1,0 +1,131 @@
+{
+  "id": "2026-09-16-p5k2w9m7qs",
+  "date": "2026-09-16",
+  "dateLabel": "16 September 2026",
+  "title": "Experiences, Travel & Present Perfect",
+  "subtitle": "Talk about life experiences and choose Present Perfect or Past Simple accurately.",
+  "policyVersion": "berra-lesson-evidence-first@1",
+  "templateContractVersion": "berra-flexible-unit-workspace@1",
+  "assessmentPolicyVersion": "berra-formative-unit-and-final-practice@1",
+  "assessment": { "formative": true, "feedback": true, "retryAllowed": true, "resetAllowed": true, "scoreThreshold": null },
+  "units": [
+    {
+      "id": "travel-experiences",
+      "number": 1,
+      "title": "Travel & Life Experiences",
+      "tagline": "Ask about experiences with ever and never.",
+      "notes": [
+        "Use Present Perfect for an experience when the exact past time is not important: I have visited a mountain village.",
+        "Make questions with Have/Has + subject + past participle: Have you ever travelled by boat?",
+        "Use never for an experience that has not happened: I have never slept in a tent.",
+        "Travel vocabulary can make experience questions more specific: destination, journey, guide, village and coast."
+      ],
+      "vocabulary": [
+        { "word": "destination", "meaning": "the place a person is travelling to", "example": "The island was their final destination." },
+        { "word": "journey", "meaning": "an act of travelling from one place to another", "example": "The train journey took three hours." },
+        { "word": "coast", "meaning": "land beside the sea", "example": "They walked along the coast." },
+        { "word": "guide", "meaning": "a person who shows visitors around a place", "example": "A guide explained the history of the town." },
+        { "word": "unusual", "meaning": "different from what is common", "example": "The village had an unusual bridge." },
+        { "word": "invent", "meaning": "to create something new", "example": "The student invented a simple water filter." }
+      ],
+      "grammar": [
+        { "title": "Present Perfect for experience", "rule": "Present Perfect: have/has + past participle. Belirsiz bir geçmiş deneyimden söz ederken kullanılır. Zamanı belirtmeyiz; deneyimin şu anla bağlantısı vardır.", "examples": ["I have visited a coastal town.", "She has tried kayaking.", "Have they ever travelled abroad?"] },
+        { "title": "Ever and never", "rule": "Ever genellikle soru cümlelerinde 'hayatında hiç' anlamı verir. Never olumsuz bir anlam taşır; bu yüzden ayrıca don't kullanmayız.", "examples": ["Have you ever seen a volcano?", "I have never flown in a small plane.", "He has never visited that museum."] }
+      ],
+      "remember": "have/has + üçüncü hâl: I have been, she has gone, we have seen. Düzensiz fiillerin 1/2/3 hâllerini birlikte tekrar et.",
+      "watchOut": "'I have never been...' zaten olumsuzdur; 'I haven't never been...' çift olumsuz olur.",
+      "practice": [
+        { "id": "p16-u1-p1", "prompt": "Have you ever ___ to another city by train?", "options": ["go", "gone", "went"], "answerIndex": 1, "hint": "After have, use the past participle." },
+        { "id": "p16-u1-p2", "prompt": "Mina has never ___ a camel.", "options": ["ride", "rode", "ridden"], "answerIndex": 2, "hint": "Ride → rode → ridden." },
+        { "id": "p16-u1-p3", "prompt": "Choose the correct Present Perfect question.", "options": ["Have you ever visited a cave?", "Did you ever visited a cave?", "Have you ever visit a cave?"], "answerIndex": 0 },
+        { "id": "p16-u1-p4", "prompt": "They have ___ an unusual place near the coast.", "options": ["find", "found", "finding"], "answerIndex": 1, "hint": "Find → found → found." },
+        { "id": "p16-u1-p5", "prompt": "Which word means a place you are travelling to?", "options": ["destination", "journey", "guide"], "answerIndex": 0 },
+        { "id": "p16-u1-p6", "prompt": "I have never ___ in a tent.", "options": ["sleep", "slept", "sleeping"], "answerIndex": 1, "hint": "Sleep → slept → slept." },
+        { "id": "p16-u1-p7", "prompt": "Which sentence is correct?", "options": ["She has saw the coast.", "She has seen the coast.", "She has see the coast."], "answerIndex": 1 },
+        { "id": "p16-u1-p8", "prompt": "A person who shows visitors around is a ___.", "options": ["guide", "destination", "journey"], "answerIndex": 0 }
+      ],
+      "reading": {
+        "title": "The Windmill Project",
+        "text": "Arda lives in a small village where the dry season can be difficult. He has always enjoyed finding practical solutions. Last year, he read about wind power and started to build a small windmill with old bicycle parts. He has learned a lot from the project, although the first version did not work well. This month, the windmill has helped charge a small battery for the village library. Arda has not become famous, but he has shown that a creative idea can begin with simple materials.",
+        "questions": [
+          { "id": "p16-u1-r1", "prompt": "What has Arda built?", "options": ["A small windmill", "A film studio", "A train station"], "answerIndex": 0 },
+          { "id": "p16-u1-r2", "prompt": "What did Arda use for the windmill?", "options": ["New computers", "Old bicycle parts", "Chocolate boxes"], "answerIndex": 1 },
+          { "id": "p16-u1-r3", "prompt": "What has the windmill helped do this month?", "options": ["Make a film", "Build a museum", "Charge a small battery"], "answerIndex": 2 },
+          { "id": "p16-u1-r4", "prompt": "What idea does the text show?", "options": ["A simple idea can grow into something useful.", "Creative projects need only expensive materials.", "A village cannot use wind power."], "answerIndex": 0 }
+        ]
+      },
+      "listening": {
+        "title": "An Unusual Destination",
+        "script": "Seda: Have you ever visited a place that was completely different from your town? Karim: Yes, I have. Two years ago, I went to a village near a salt lake. The ground looked white, and the water changed colour in the evening. Seda: Have you ever travelled with a guide? Karim: No, I haven't. My cousin knew the area, so she showed us the best places. Seda: I have never seen a salt lake, but I would like to go.",
+        "questions": [
+          { "id": "p16-u1-l1", "prompt": "Where did Karim go two years ago?", "options": ["To a village near a salt lake", "To a city cinema", "To a mountain school"], "answerIndex": 0 },
+          { "id": "p16-u1-l2", "prompt": "What changed colour in the evening?", "options": ["The ground", "The water", "The guide"], "answerIndex": 1 },
+          { "id": "p16-u1-l3", "prompt": "Who showed Karim the best places?", "options": ["His cousin", "A guide", "Seda"], "answerIndex": 0 },
+          { "id": "p16-u1-l4", "prompt": "What has Seda never seen?", "options": ["A salt lake", "A bicycle", "A museum"], "answerIndex": 0 }
+        ]
+      }
+    },
+    {
+      "id": "present-perfect-or-past",
+      "number": 2,
+      "title": "Present Perfect or Past Simple?",
+      "tagline": "Move to Past Simple when a specific finished time is given.",
+      "notes": [
+        "Use Present Perfect for a general experience: Have you ever seen a desert?",
+        "Use Past Simple when the conversation gives a specific, finished time: Yes, I saw one last summer.",
+        "A follow-up question with When? asks for that specific past time, so Past Simple follows.",
+        "Verb forms matter: see → saw → seen; go → went → gone; write → wrote → written."
+      ],
+      "grammar": [
+        { "title": "Specific past time", "rule": "Yesterday, last summer, in 2024 gibi bitmiş ve belirli zaman ifadeleriyle Past Simple kullanılır. Present Perfect ile bu tür zaman ifadelerini birlikte kullanma.", "examples": ["I visited Izmir last summer.", "When did you go?", "I went in July."] },
+        { "title": "The follow-up pattern", "rule": "Önce deneyimi sor: Have you ever ...? Cevaptan sonra zamanı sor: When did you ...? İlk soru Present Perfect, zaman sorusu ve cevabı Past Simple olur.", "examples": ["Have you ever tried surfing?", "Yes, I have.", "When did you try it?", "I tried it last August."] }
+      ],
+      "remember": "Hayat deneyimi = Present Perfect. Zamanı bitmiş ve açıkça belirtilmiş olay = Past Simple.",
+      "watchOut": "'I have visited Rome last year' yanlış. 'I visited Rome last year' doğru; zaman belirtilmiyorsa 'I have visited Rome' kullanılabilir.",
+      "practice": [
+        { "id": "p16-u2-p1", "prompt": "Have you ever ___ a famous building?", "options": ["see", "saw", "seen"], "answerIndex": 2 },
+        { "id": "p16-u2-p2", "prompt": "I ___ that museum last Saturday.", "options": ["visited", "have visited", "visit"], "answerIndex": 0 },
+        { "id": "p16-u2-p3", "prompt": "Which follow-up question is correct?", "options": ["When have you gone?", "When did you go?", "When did you gone?"], "answerIndex": 1 },
+        { "id": "p16-u2-p4", "prompt": "She has never ___ a song in public.", "options": ["sing", "sang", "sung"], "answerIndex": 2 },
+        { "id": "p16-u2-p5", "prompt": "We ___ to the coast in July.", "options": ["went", "have gone", "gone"], "answerIndex": 0 },
+        { "id": "p16-u2-p6", "prompt": "Choose the sentence about a general experience.", "options": ["I tried climbing yesterday at 4:00.", "I have tried climbing last Friday.", "I have tried climbing."], "answerIndex": 2 },
+        { "id": "p16-u2-p7", "prompt": "Write → wrote → ___.", "options": ["writed", "written", "wrote"], "answerIndex": 1 },
+        { "id": "p16-u2-p8", "prompt": "They have ___ their train tickets.", "options": ["buy", "buying", "bought"], "answerIndex": 2 },
+        { "id": "p16-u2-p9", "prompt": "Which time expression signals Past Simple here?", "options": ["last weekend", "ever", "never"], "answerIndex": 0 },
+        { "id": "p16-u2-p10", "prompt": "Has Deniz ever ___ a new idea?", "options": ["invent", "invented", "invents"], "answerIndex": 1 }
+      ],
+      "reading": {
+        "title": "A Journey to the Cliff Village",
+        "text": "Nora has always wanted to visit the cliff village of Varda. Last spring, she travelled there with her uncle. They took a bus to the coast and then walked along a narrow path. Nora has taken many photographs of the houses built into the rock, but her favourite moment happened on the second day. A local guide told them how people carried water to the village before there was a road. Since that journey, Nora has read more about unusual places and has started a small travel notebook.",
+        "questions": [
+          { "id": "p16-u2-r1", "prompt": "When did Nora travel to Varda?", "options": ["Every day", "Last spring", "Next year"], "answerIndex": 1 },
+          { "id": "p16-u2-r2", "prompt": "What has Nora taken many of?", "options": ["Train tickets", "Recipes", "Photographs"], "answerIndex": 2 },
+          { "id": "p16-u2-r3", "prompt": "Who explained the village's history?", "options": ["A local guide", "Nora's teacher", "A film character"], "answerIndex": 0 },
+          { "id": "p16-u2-r4", "prompt": "What has Nora started since the journey?", "options": ["A restaurant", "A travel notebook", "A windmill"], "answerIndex": 1 }
+        ]
+      },
+      "speaking": {
+        "title": "Experience Interview",
+        "prompt": "Ask and answer three experience questions. After each yes answer, ask one Past Simple follow-up question with When, Where or Who.",
+        "support": ["Have you ever visited ...?", "Have you ever tried ...?", "When did you ...?", "I ... last year / in July / with my family."]
+      },
+      "writing": {
+        "title": "A Place I Have Visited",
+        "prompt": "Write 8–10 sentences about a place you have visited, or an unusual place you would like to visit. Use two Present Perfect sentences for experiences and two Past Simple sentences with a finished time.",
+        "support": ["I have visited ...", "I have never seen ...", "I went there last ...", "When I arrived, ...", "I would like to visit ... because ..."]
+      }
+    }
+  ],
+  "finalQuiz": [
+    { "id": "p16-f1", "prompt": "Go → went → ___.", "options": ["go", "went", "gone"], "answerIndex": 2 },
+    { "id": "p16-f2", "prompt": "Have you ever ___ a boat?", "options": ["driven", "drove", "drive"], "answerIndex": 0 },
+    { "id": "p16-f3", "prompt": "I ___ a boat last summer.", "options": ["have driven", "drove", "driven"], "answerIndex": 1 },
+    { "id": "p16-f4", "prompt": "Which word is common in Present Perfect experience questions?", "options": ["ever", "yesterday", "last Monday"], "answerIndex": 0 },
+    { "id": "p16-f5", "prompt": "She has never ___ a volcano.", "options": ["saw", "see", "seen"], "answerIndex": 2 },
+    { "id": "p16-f6", "prompt": "When did you ___ there?", "options": ["went", "go", "gone"], "answerIndex": 1 },
+    { "id": "p16-f7", "prompt": "They have ___ a new travel plan.", "options": ["make", "making", "made"], "answerIndex": 2 },
+    { "id": "p16-f8", "prompt": "Which sentence has a specific finished time?", "options": ["I have visited a cave.", "I visited a cave in May.", "I have never visited a cave."], "answerIndex": 1 },
+    { "id": "p16-f9", "prompt": "See → saw → ___.", "options": ["seen", "see", "saw"], "answerIndex": 0 },
+    { "id": "p16-f10", "prompt": "A place beside the sea is the ___.", "options": ["coast", "journey", "guide"], "answerIndex": 0 }
+  ]
+}

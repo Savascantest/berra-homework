@@ -1,0 +1,117 @@
+{
+  "id": "2026-09-08-c4m9q7z2kp",
+  "date": "2026-09-08",
+  "dateLabel": "8 September 2026",
+  "title": "Past Stories, Food & Second Forms",
+  "subtitle": "Review past actions through food stories, reading and listening.",
+  "policyVersion": "berra-lesson-evidence-first@1",
+  "templateContractVersion": "berra-flexible-unit-workspace@1",
+  "assessmentPolicyVersion": "berra-formative-unit-and-final-practice@1",
+  "assessment": { "formative": true, "feedback": true, "retryAllowed": true, "resetAllowed": true, "scoreThreshold": null },
+  "units": [
+    {
+      "id": "past-forms-kitchen",
+      "number": 1,
+      "title": "Past Forms in the Kitchen",
+      "tagline": "Use regular and irregular second forms to tell a clear food story.",
+      "notes": [
+        "Use Past Simple for a finished action: Yesterday, I cooked dinner.",
+        "Irregular verbs change form: make → made, buy → bought, eat → ate, go → went.",
+        "In questions and negatives, use did/didn't + the base verb: Did you make soup? I didn't make soup."
+      ],
+      "vocabulary": [
+        { "word": "recipe", "meaning": "instructions for making a dish", "example": "Noah followed a simple soup recipe." },
+        { "word": "ingredient", "meaning": "one food item used to make a dish", "example": "The main ingredient was fresh tomato." },
+        { "word": "stir", "meaning": "to move food around with a spoon", "example": "Lina stirred the sauce slowly." },
+        { "word": "bake", "meaning": "to cook food in an oven", "example": "They baked biscuits for the picnic." },
+        { "word": "delicious", "meaning": "very pleasant to eat", "example": "The warm bread was delicious." },
+        { "word": "memory", "meaning": "something you remember from the past", "example": "The smell created a happy childhood memory." }
+      ],
+      "grammar": [
+        { "title": "Past Simple: finished actions", "rule": "Geçmişte başlayıp biten eylemler için Past Simple kullanılır. Düzenli fiiller çoğunlukla -ed alır; düzensiz fiillerin ikinci hâli öğrenilmelidir.", "examples": ["Maya cooked pasta yesterday.", "Omar made a cake last Sunday.", "They went to the market."] },
+        { "title": "Questions and negatives", "rule": "Did ve didn't geçmiş zamanı zaten taşır; ardından fiilin yalın hâli gelir. 'Did she made?' değil, 'Did she make?' denir.", "examples": ["Did you buy the ingredients?", "I didn't eat the cookies.", "What did the chef say?"] }
+      ],
+      "remember": "Irregular verbleri üçlü olarak değil, şimdilik fiilin yalın hâli ve ikinci hâliyle birlikte tekrar et: go → went, make → made.",
+      "watchOut": "Did/didn't sonrasında ikinci hâli kullanma: 'didn't went' değil, 'didn't go'.",
+      "practice": [
+        { "id": "p8-u1-p1", "prompt": "Yesterday, Amir ___ a chocolate cake.", "options": ["make", "made", "making"], "answerIndex": 1, "hint": "Make is irregular in the past." },
+        { "id": "p8-u1-p2", "prompt": "Which sentence is correct?", "options": ["Did Ella bought bread?", "Ella didn't bought bread.", "Did Ella buy bread?"], "answerIndex": 2, "hint": "After did, use the base verb." },
+        { "id": "p8-u1-p3", "prompt": "The children ___ the soup for ten minutes.", "options": ["stirred", "stir", "stirs"], "answerIndex": 0, "hint": "This is a finished action in the past." },
+        { "id": "p8-u1-p4", "prompt": "Last weekend, we ___ fresh fruit at the market.", "options": ["buy", "buyed", "bought"], "answerIndex": 2, "hint": "Buy → bought." },
+        { "id": "p8-u1-p5", "prompt": "I didn't ___ the recipe before dinner.", "options": ["read", "readed", "reads"], "answerIndex": 0, "hint": "The spelling of read stays the same after didn't." },
+        { "id": "p8-u1-p6", "prompt": "Which word means one item used to make a dish?", "options": ["ingredient", "memory", "menu"], "answerIndex": 0, "hint": "Flour, eggs and milk can all be this." },
+        { "id": "p8-u1-p7", "prompt": "Rita ___ the biscuits in the oven.", "options": ["bakes", "baked", "bake"], "answerIndex": 1, "hint": "Add -ed to this regular verb." },
+        { "id": "p8-u1-p8", "prompt": "Choose the best question about yesterday.", "options": ["What did you cook?", "What you cooked?", "What did you cooked?"], "answerIndex": 0, "hint": "Question word + did + subject + base verb." }
+      ],
+      "reading": {
+        "title": "The Unexpected Cookie Recipe",
+        "text": "Mila wanted to make cookies for her neighbours. She found an old recipe in a book, but the page was difficult to read. First, she mixed butter, sugar and eggs. Then she added small pieces of chocolate because her brother suggested it. The cookies looked unusual, but everyone ate them quickly. Mila wrote the new recipe in her notebook. Years later, she still remembered that afternoon whenever she smelled warm chocolate cookies.",
+        "questions": [
+          { "id": "p8-u1-r1", "prompt": "Why did Mila add chocolate pieces?", "options": ["Her brother suggested it.", "The recipe required fish.", "She forgot the sugar."], "answerIndex": 0 },
+          { "id": "p8-u1-r2", "prompt": "What did Mila do after the cookies were eaten?", "options": ["She went to the market.", "She wrote the recipe down.", "She threw the cookies away."], "answerIndex": 1 },
+          { "id": "p8-u1-r3", "prompt": "What helped Mila remember the afternoon later?", "options": ["A new menu", "The smell of warm cookies", "A film poster"], "answerIndex": 1 },
+          { "id": "p8-u1-r4", "prompt": "Which past verb from the text is irregular?", "options": ["found", "mixed", "added"], "answerIndex": 0 }
+        ]
+      },
+      "listening": {
+        "title": "A Cooking Plan",
+        "script": "Leo: Did you cook last night? Sana: Yes, I made vegetable pasta. I went to the shop after school and bought tomatoes, cheese and oil. Leo: Did you follow a recipe? Sana: No, my aunt showed me how to make it last year. We ate it with bread, and my family said it was delicious.",
+        "questions": [
+          { "id": "p8-u1-l1", "prompt": "What did Sana make?", "options": ["Chocolate biscuits", "Vegetable pasta", "Fish soup"], "answerIndex": 1 },
+          { "id": "p8-u1-l2", "prompt": "When did Sana go to the shop?", "options": ["Before breakfast", "Next week", "After school"], "answerIndex": 2 },
+          { "id": "p8-u1-l3", "prompt": "Who showed Sana how to make the dish?", "options": ["Her aunt", "A chef on television", "Leo"], "answerIndex": 0 },
+          { "id": "p8-u1-l4", "prompt": "Which phrase describes the family's opinion?", "options": ["It was expensive.", "It was delicious.", "It was empty."], "answerIndex": 1 }
+        ]
+      }
+    },
+    {
+      "id": "past-story-review",
+      "number": 2,
+      "title": "Past Stories & Food Memories",
+      "tagline": "Connect past events in a short, meaningful story.",
+      "notes": [
+        "A past story often answers: when, where, who, what happened and how someone felt.",
+        "Use sequence words such as first, then and finally to make a story easy to follow.",
+        "Review earlier food language only when it helps the story: menu, dish, dessert and favourite food."
+      ],
+      "vocabulary": [
+        { "word": "childhood", "meaning": "the time when someone was a child", "example": "My childhood favourite was rice pudding." },
+        { "word": "favourite", "meaning": "liked more than all the others", "example": "Her favourite dessert was apple pie." },
+        { "word": "share", "meaning": "to give part of something to another person", "example": "The cousins shared the last cookie." },
+        { "word": "finally", "meaning": "at the end of a sequence", "example": "Finally, they cleaned the kitchen." }
+      ],
+      "practice": [
+        { "id": "p8-u2-p1", "prompt": "First, Nia ___ the vegetables. Then she cooked them.", "options": ["washed", "wash", "washing"], "answerIndex": 0, "hint": "A finished first action." },
+        { "id": "p8-u2-p2", "prompt": "Which word best completes the sequence: First we ate dinner. ___, we had dessert.", "options": ["Yesterday", "Then", "Never"], "answerIndex": 1 },
+        { "id": "p8-u2-p3", "prompt": "My grandparents ___ me stories about their favourite meals.", "options": ["tell", "told", "telling"], "answerIndex": 1, "hint": "Tell → told." },
+        { "id": "p8-u2-p4", "prompt": "Choose the sentence with a correct past form.", "options": ["We eated cake.", "We did ate cake.", "We ate cake."], "answerIndex": 2 },
+        { "id": "p8-u2-p5", "prompt": "What does childhood mean?", "options": ["The time when you were a child", "A kind of food", "The last part of a recipe"], "answerIndex": 0 },
+        { "id": "p8-u2-p6", "prompt": "Last Friday, I ___ my friend at a café.", "options": ["see", "saw", "seen"], "answerIndex": 1, "hint": "See → saw." }
+      ],
+      "reading": {
+        "title": "A Dish from Home",
+        "text": "When Daniel was young, his family visited his grandmother every Saturday. She made a large vegetable dish and put it in the middle of the table. Daniel helped her cut the bread, and his cousins brought the plates. Everyone shared the meal and talked about school. One Saturday, Daniel tried to cook the same dish alone. He forgot one ingredient, but he called his grandmother and asked for help. Finally, the dish tasted different, but it gave him a warm memory of those family meals.",
+        "questions": [
+          { "id": "p8-u2-r1", "prompt": "When did Daniel's family visit his grandmother?", "options": ["Every morning", "Last year only", "Every Saturday"], "answerIndex": 2 },
+          { "id": "p8-u2-r2", "prompt": "What did Daniel forget when he cooked alone?", "options": ["One ingredient", "His school bag", "The plates"], "answerIndex": 0 },
+          { "id": "p8-u2-r3", "prompt": "How did Daniel get help?", "options": ["He watched a film.", "He called his grandmother.", "He went to the café."], "answerIndex": 1 }
+        ]
+      },
+      "writing": {
+        "title": "Write a Food Memory",
+        "prompt": "Write 6–8 sentences about a food memory. Include when it happened, who was there, what you ate or cooked, and how you felt.",
+        "support": ["Last year / When I was younger, ...", "First, ... Then, ... Finally, ...", "We ate ... and I felt ...", "Use at least three Past Simple verbs."]
+      }
+    }
+  ],
+  "finalQuiz": [
+    { "id": "p8-f1", "prompt": "Go → ___", "options": ["goed", "gone", "went"], "answerIndex": 2 },
+    { "id": "p8-f2", "prompt": "Which question is correct?", "options": ["Did you ate breakfast?", "Did you eat breakfast?", "You did eat breakfast?"], "answerIndex": 1 },
+    { "id": "p8-f3", "prompt": "Yesterday we ___ a new recipe.", "options": ["tried", "try", "trying"], "answerIndex": 0 },
+    { "id": "p8-f4", "prompt": "Buy → ___", "options": ["brought", "buyed", "bought"], "answerIndex": 2 },
+    { "id": "p8-f5", "prompt": "I didn't ___ any dessert.", "options": ["eat", "ate", "eating"], "answerIndex": 0 },
+    { "id": "p8-f6", "prompt": "Which word can introduce the last step in a story?", "options": ["Finally", "Because", "Usually"], "answerIndex": 0 },
+    { "id": "p8-f7", "prompt": "The cook ___ the sauce carefully.", "options": ["stir", "stirred", "stirs"], "answerIndex": 1 },
+    { "id": "p8-f8", "prompt": "What is a recipe?", "options": ["A list of cooking instructions", "A restaurant worker", "A childhood game"], "answerIndex": 0 }
+  ]
+}

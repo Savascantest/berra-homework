@@ -1,0 +1,125 @@
+{
+  "id": "2026-09-14-v8d1n6r3xt",
+  "date": "2026-09-14",
+  "dateLabel": "14 September 2026",
+  "title": "Films, Stories & Independent Practice",
+  "subtitle": "Build film vocabulary, follow a story and practise known grammar independently.",
+  "policyVersion": "berra-lesson-evidence-first@1",
+  "templateContractVersion": "berra-flexible-unit-workspace@1",
+  "assessmentPolicyVersion": "berra-formative-unit-and-final-practice@1",
+  "assessment": { "formative": true, "feedback": true, "retryAllowed": true, "resetAllowed": true, "scoreThreshold": null },
+  "units": [
+    {
+      "id": "film-language-story",
+      "number": 1,
+      "title": "Film Language & Story",
+      "tagline": "Describe characters, plots and ideas in a film.",
+      "notes": [
+        "A plot is the sequence of events in a film or story.",
+        "A character is a person in the story; the main character is especially important.",
+        "Use adjectives to describe a film: funny, exciting, surprising, sad or inspiring.",
+        "A good story often has a problem, a development and an ending."
+      ],
+      "vocabulary": [
+        { "word": "plot", "meaning": "the story and events in a film", "example": "The plot became more exciting near the end." },
+        { "word": "character", "meaning": "a person in a film or story", "example": "The main character made a brave choice." },
+        { "word": "scene", "meaning": "one part of a film", "example": "My favourite scene was at the train station." },
+        { "word": "ending", "meaning": "the final part of a story", "example": "The ending was surprising but hopeful." },
+        { "word": "successful", "meaning": "achieving good results or becoming popular", "example": "The film was successful because people recommended it." },
+        { "word": "develop", "meaning": "to grow or change over time", "example": "The story developed slowly in the first half." }
+      ],
+      "grammar": [
+        { "title": "Review: Past Simple for a film story", "rule": "Bir filmi veya geçen hafta izlediğin bir şeyi anlatırken Past Simple kullan. Düzenli fiillere -ed gelir; düzensiz fiiller ikinci hâl alır.", "examples": ["I watched a comedy on Saturday.", "The hero found a map.", "The friends went home at the end."] }
+      ],
+      "remember": "Film hakkında konuşurken 'The film was...' ile genel fikrini, 'The character did...' ile olayları anlatabilirsin.",
+      "watchOut": "Bir hikâyeyi geçmişte anlatırken 'The hero find...' değil, 'The hero found...' kullan.",
+      "practice": [
+        { "id": "p14-u1-p1", "prompt": "What is the plot of a film?", "options": ["The price of the ticket", "The story and events", "The name of the cinema"], "answerIndex": 1 },
+        { "id": "p14-u1-p2", "prompt": "Which word means the final part of a story?", "options": ["scene", "character", "ending"], "answerIndex": 2 },
+        { "id": "p14-u1-p3", "prompt": "Last night, Hana ___ a mystery film.", "options": ["watched", "watch", "watches"], "answerIndex": 0 },
+        { "id": "p14-u1-p4", "prompt": "The main character ___ a difficult problem.", "options": ["face", "faced", "facing"], "answerIndex": 1 },
+        { "id": "p14-u1-p5", "prompt": "Which adjective can describe a film that makes you laugh?", "options": ["empty", "careful", "funny"], "answerIndex": 2 },
+        { "id": "p14-u1-p6", "prompt": "The story ___ more interesting after the first scene.", "options": ["develop", "developed", "develops"], "answerIndex": 1 },
+        { "id": "p14-u1-p7", "prompt": "Which sentence is natural?", "options": ["The plot was cook.", "The plot was yesterday.", "The plot was exciting."], "answerIndex": 2 },
+        { "id": "p14-u1-p8", "prompt": "A person in a film is called a ___.", "options": ["recipe", "character", "listener"], "answerIndex": 1 }
+      ],
+      "reading": {
+        "title": "A Film with a Small Idea",
+        "text": "A young filmmaker named Elif wanted to make a film about a lost bicycle. Her friends thought the idea was too simple, but Elif developed the story carefully. In the first scene, a boy found an old key in the bicycle basket. Then he met people from different parts of his town and learned why the bicycle mattered to them. The ending was quiet: he returned the bicycle to its owner, who had used it when she was a child. The film did not have famous actors, but audiences liked its warm characters and clear story.",
+        "questions": [
+          { "id": "p14-u1-r1", "prompt": "What was Elif's film about?", "options": ["A lost bicycle", "A cooking competition", "A new school"], "answerIndex": 0 },
+          { "id": "p14-u1-r2", "prompt": "Where did the boy find the key?", "options": ["At a cinema", "In the bicycle basket", "Under a film poster"], "answerIndex": 1 },
+          { "id": "p14-u1-r3", "prompt": "Why did audiences like the film?", "options": ["It had famous actors.", "It was very long.", "It had warm characters and a clear story."], "answerIndex": 2 },
+          { "id": "p14-u1-r4", "prompt": "What happened at the end?", "options": ["The bicycle went to a new town.", "The boy returned the bicycle.", "Elif stopped making films."], "answerIndex": 1 }
+        ]
+      },
+      "listening": {
+        "title": "Choosing a Film Idea",
+        "script": "Mert: I want to make a short film for our school project. Aylin: What is your idea? Mert: It is about two friends who find an old camera. Every photo shows a place from the past. Aylin: That sounds interesting. What is the problem in the story? Mert: They disagree about who should keep the camera, but finally they give it to the town museum. Aylin: Good ending. You can make the characters very different from each other.",
+        "questions": [
+          { "id": "p14-u1-l1", "prompt": "What do the two friends find?", "options": ["An old camera", "A bicycle", "A map"], "answerIndex": 0 },
+          { "id": "p14-u1-l2", "prompt": "What do the photos show?", "options": ["Future films", "Places from the past", "Food recipes"], "answerIndex": 1 },
+          { "id": "p14-u1-l3", "prompt": "What is the friends' problem?", "options": ["They lose the school project.", "They cannot take photos.", "They disagree about keeping the camera."], "answerIndex": 2 },
+          { "id": "p14-u1-l4", "prompt": "Where do they give the camera?", "options": ["To the town museum", "To a restaurant", "To a film star"], "answerIndex": 0 }
+        ]
+      }
+    },
+    {
+      "id": "independent-grammar-writing",
+      "number": 2,
+      "title": "Independent Grammar & Film Writing",
+      "tagline": "Use familiar grammar accurately while planning a short review.",
+      "notes": [
+        "Review questions and negatives with Past Simple: Did you like it? I didn't like the ending.",
+        "Review countable and uncountable nouns in a film-night context: many films, much time, a lot of popcorn.",
+        "Use a few linked sentences to explain your opinion: I liked it because..., but..., so...."
+      ],
+      "grammar": [
+        { "title": "Past Simple questions and negatives", "rule": "Did/didn't sonrasında fiilin yalın hâli gelir. Bu yapı, daha önce öğrenilen geçmiş zaman tekrarını kendi başına çözmek için kullanışlıdır.", "examples": ["Did you enjoy the film?", "I didn't understand one scene.", "What did the character decide?"] },
+        { "title": "Many, much and a lot of", "rule": "Many sayılabilen çoğul isimlerle; much sayılamayan isimlerle kullanılır. A lot of ikisiyle de kullanılabilir.", "examples": ["There were many characters.", "We didn't have much time.", "They bought a lot of popcorn."] }
+      ],
+      "remember": "Kendi kendine çalışırken önce soruyu oku, sonra ipucunu kullan ve sonunda cevabı kontrol et. Amaç puan değil, hangi yapıyı tekrar edeceğini görmek.",
+      "watchOut": "Did ile soru sorarken ikinci hâl kullanma: 'Did the story began?' değil, 'Did the story begin?'.",
+      "practice": [
+        { "id": "p14-u2-p1", "prompt": "Did the film ___ at eight o'clock?", "options": ["started", "starts", "start"], "answerIndex": 2 },
+        { "id": "p14-u2-p2", "prompt": "We didn't ___ the last scene.", "options": ["understand", "understood", "understanding"], "answerIndex": 0 },
+        { "id": "p14-u2-p3", "prompt": "How ___ films did the club watch this month?", "options": ["much", "many", "anything"], "answerIndex": 1 },
+        { "id": "p14-u2-p4", "prompt": "There wasn't ___ time before the film started.", "options": ["much", "many", "several"], "answerIndex": 0 },
+        { "id": "p14-u2-p5", "prompt": "Choose the correct sentence.", "options": ["The characters were interesting.", "The characters was interesting.", "The characters interesting."], "answerIndex": 0 },
+        { "id": "p14-u2-p6", "prompt": "What did the hero ___ at the end?", "options": ["decided", "decide", "decides"], "answerIndex": 1 },
+        { "id": "p14-u2-p7", "prompt": "They bought ___ popcorn for the film night.", "options": ["a lot of", "many", "much of"], "answerIndex": 0 },
+        { "id": "p14-u2-p8", "prompt": "Which sentence gives an opinion and a reason?", "options": ["The film was on Friday.", "I liked the film because the ending was hopeful.", "The film had a character."], "answerIndex": 1 }
+      ],
+      "writing": {
+        "title": "Write a Favourite-Film Review",
+        "prompt": "Write 8–10 sentences about a film you like. Say what kind of film it is, introduce one character, explain the basic plot without giving every detail, and give your opinion.",
+        "support": ["My favourite film is ... It is a ...", "The main character is ...", "The story begins when ...", "I liked it because ...", "My favourite scene was ..."]
+      },
+      "speaking": {
+        "title": "Say Your Film Pitch",
+        "prompt": "Imagine you are planning a short film. Speak for one minute: name the main character, describe the problem, say where the story happens and give it an ending.",
+        "support": ["The main character is ...", "One day, ...", "The problem is ...", "In the end, ..."]
+      },
+      "reading": {
+        "title": "Why a Good Film Works",
+        "text": "A good film does not need a complicated plot. It needs characters that the audience can understand and a clear reason to keep watching. At the beginning, viewers should learn who the main character is and what that person wants. Then the story needs a problem. The character can make mistakes, change plans or ask for help. Near the end, the problem should become clearer. A strong ending does not always mean a happy ending, but it should feel connected to the earlier scenes.",
+        "questions": [
+          { "id": "p14-u2-r1", "prompt": "What should viewers learn at the beginning?", "options": ["Who the main character is and what they want", "The price of every ticket", "How to cook a meal"], "answerIndex": 0 },
+          { "id": "p14-u2-r2", "prompt": "What does a story need after the beginning?", "options": ["A problem", "A dessert", "A new cinema"], "answerIndex": 0 },
+          { "id": "p14-u2-r3", "prompt": "Does a strong ending always have to be happy?", "options": ["Yes, always.", "No, but it should connect to earlier scenes.", "Only in a comedy."], "answerIndex": 1 },
+          { "id": "p14-u2-r4", "prompt": "Which action can a character take in the middle of a story?", "options": ["Ask for help", "Become a ticket", "Watch the title"], "answerIndex": 0 }
+        ]
+      }
+    }
+  ],
+  "finalQuiz": [
+    { "id": "p14-f1", "prompt": "A person in a story is a ___.", "options": ["scene", "ending", "character"], "answerIndex": 2 },
+    { "id": "p14-f2", "prompt": "Which word means the events in a film?", "options": ["plot", "screen", "music"], "answerIndex": 0 },
+    { "id": "p14-f3", "prompt": "Did you ___ the ending?", "options": ["liked", "like", "likes"], "answerIndex": 1 },
+    { "id": "p14-f4", "prompt": "I didn't ___ the plot at first.", "options": ["understand", "understood", "understands"], "answerIndex": 0 },
+    { "id": "p14-f5", "prompt": "There were ___ scenes in the film.", "options": ["much", "a lot of", "many"], "answerIndex": 2 },
+    { "id": "p14-f6", "prompt": "Which phrase gives a reason?", "options": ["because the characters changed", "at the cinema", "last weekend"], "answerIndex": 0 },
+    { "id": "p14-f7", "prompt": "The story ___ slowly after the first scene.", "options": ["developed", "develop", "developing"], "answerIndex": 0 },
+    { "id": "p14-f8", "prompt": "Which is a useful review sentence?", "options": ["The film was a film.", "I liked it because the story was surprising.", "I did liked the scene."], "answerIndex": 1 }
+  ]
+}

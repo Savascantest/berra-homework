@@ -1,7 +1,34 @@
 {
   "student": "Berra",
-  "defaultLessonId": "2026-08-24-ddzldq4usc",
+  "defaultLessonId": "2026-09-16-p5k2w9m7qs",
   "lessons": [
+    {
+      "id": "2026-09-16-p5k2w9m7qs",
+      "date": "2026-09-16",
+      "title": "Experiences, Travel & Present Perfect",
+      "path": "2026-09-16-p5k2w9m7qs/homework.json",
+      "policyVersion": "berra-lesson-evidence-first@1",
+      "templateContractVersion": "berra-flexible-unit-workspace@1",
+      "assessmentPolicyVersion": "berra-formative-unit-and-final-practice@1"
+    },
+    {
+      "id": "2026-09-14-v8d1n6r3xt",
+      "date": "2026-09-14",
+      "title": "Films, Stories & Independent Practice",
+      "path": "2026-09-14-v8d1n6r3xt/homework.json",
+      "policyVersion": "berra-lesson-evidence-first@1",
+      "templateContractVersion": "berra-flexible-unit-workspace@1",
+      "assessmentPolicyVersion": "berra-formative-unit-and-final-practice@1"
+    },
+    {
+      "id": "2026-09-08-c4m9q7z2kp",
+      "date": "2026-09-08",
+      "title": "Past Stories, Food & Second Forms",
+      "path": "2026-09-08-c4m9q7z2kp/homework.json",
+      "policyVersion": "berra-lesson-evidence-first@1",
+      "templateContractVersion": "berra-flexible-unit-workspace@1",
+      "assessmentPolicyVersion": "berra-formative-unit-and-final-practice@1"
+    },
     {
       "id": "2026-08-24-ddzldq4usc",
       "date": "2026-08-24",

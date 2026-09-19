@@ -11,7 +11,7 @@ const POLICY_FIELDS = {
 };
 
 export function isFuturePackage(data) {
-  return Boolean(data?.date && data.date >= EFFECTIVE_DATE);
+  return Boolean(data?.date && (data.date >= EFFECTIVE_DATE || data.policyVersion || data.templateContractVersion || data.assessmentPolicyVersion || data.assessment));
 }
 
 function questionsIn(value, found = []) {

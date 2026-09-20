@@ -2,6 +2,7 @@ export const EFFECTIVE_DATE = '2026-09-18';
 export const BERRA_POLICY = 'berra-lesson-evidence-first@1';
 export const BERRA_TEMPLATE = 'berra-flexible-unit-workspace@1';
 export const BERRA_ASSESSMENT = 'berra-formative-unit-and-final-practice@1';
+export const LEGACY_PACKAGE_IDS = new Set(['2026-08-24-ddzldq4usc']);
 
 const SAFE_ID = /^\d{4}-\d{2}-\d{2}-[a-z0-9]{10,24}$/;
 const POLICY_FIELDS = {
@@ -11,7 +12,7 @@ const POLICY_FIELDS = {
 };
 
 export function isFuturePackage(data) {
-  return Boolean(data?.date && (data.date >= EFFECTIVE_DATE || data.policyVersion || data.templateContractVersion || data.assessmentPolicyVersion || data.assessment));
+  return !LEGACY_PACKAGE_IDS.has(data?.id);
 }
 
 function questionsIn(value, found = []) {

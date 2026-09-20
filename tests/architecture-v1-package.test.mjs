@@ -2,7 +2,7 @@ import assert from 'node:assert/strict';
 import test from 'node:test';
 import { readFile } from 'node:fs/promises';
 import { validatePackage, validatePublicData } from '../scripts/lib/public-package-privacy.mjs';
-import { BERRA_ASSESSMENT, BERRA_POLICY, BERRA_TEMPLATE, publicIndexEntry, validatePrePublicExecution } from '../scripts/lib/architecture-v1-package.mjs';
+import { BERRA_ASSESSMENT, BERRA_POLICY, BERRA_TEMPLATE, LEGACY_PACKAGE_IDS, publicIndexEntry, validatePrePublicExecution } from '../scripts/lib/architecture-v1-package.mjs';
 
 const historicalPath = new URL('../public/homeworks/2026-08-24-ddzldq4usc/homework.json', import.meta.url);
 const historical = JSON.parse(await readFile(historicalPath, 'utf8'));
@@ -23,8 +23,27 @@ function futurePackage() {
 const errors = (data) => validatePackage(data, data.id).join('\n');
 
 test('historical safe package remains valid without Architecture v1 metadata or future answer rules', () => {
+  assert.deepEqual([...LEGACY_PACKAGE_IDS], ['2026-08-24-ddzldq4usc']);
   assert.deepEqual(validatePackage(historical, historical.id), []);
   assert.equal(historical.policyVersion, undefined);
+});
+
+test('an unmarked pre-effective-date package does not receive legacy validation', () => {
+  const data = structuredClone(historical);
+  data.id = '2026-09-10-unmarkedv1'; data.date = '2026-09-10';
+  assert.match(errors(data), /policyVersion/);
+});
+
+test('a pre-effective-date package with approved Berra v1 metadata validates as v1', () => {
+  const data = futurePackage(); data.id = '2026-09-10-approvedv1'; data.date = '2026-09-10';
+  assert.deepEqual(validatePackage(data, data.id), []);
+});
+
+test('all three published pre-effective-date backfills receive and pass v1 validation', async () => {
+  for (const id of ['2026-09-08-c4m9q7z2kp', '2026-09-14-v8d1n6r3xt', '2026-09-16-p5k2w9m7qs']) {
+    const data = JSON.parse(await readFile(new URL(`../public/homeworks/${id}/homework.json`, import.meta.url), 'utf8'));
+    assert.deepEqual(validatePackage(data, id), []);
+  }
 });
 
 test('future package requires exact approved Berra policy metadata and rejects Gökçen IDs', () => {

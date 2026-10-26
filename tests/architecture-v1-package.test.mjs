@@ -45,7 +45,6 @@ test('all three published pre-effective-date backfills receive and pass v1 valid
     assert.deepEqual(validatePackage(data, id), []);
   }
 });
-
 test('future package requires exact approved Berra policy metadata and rejects Gökçen IDs', () => {
   for (const [key, value] of [['policyVersion', 'wrong@1'], ['templateContractVersion', 'wrong@1'], ['assessmentPolicyVersion', 'wrong@1'], ['policyVersion', 'gokcen-lesson-based@1'], ['templateContractVersion', 'gokcen-workspace@1'], ['assessmentPolicyVersion', 'gokcen-formative@1']]) {
     const data = futurePackage(); data[key] = value;
@@ -109,9 +108,9 @@ test('future index metadata is safe and production index contains only approved 
   assert.deepEqual(Object.keys(entry).sort(), ['assessmentPolicyVersion', 'date', 'id', 'path', 'policyVersion', 'templateContractVersion', 'title']);
   assert.deepEqual(validatePublicData(entry, 'index'), []);
   const index = JSON.parse(await readFile(new URL('../public/homeworks/index.json', import.meta.url), 'utf8'));
-  assert.equal(index.lessons.length, 4);
+  assert.equal(index.lessons.length, 5);
   assert.equal(index.lessons.some((lesson) => lesson.id === futurePackage().id), false);
-  for (const id of ['2026-09-08-c4m9q7z2kp', '2026-09-14-v8d1n6r3xt', '2026-09-16-p5k2w9m7qs']) {
+  for (const id of ['2026-09-08-c4m9q7z2kp', '2026-09-14-v8d1n6r3xt', '2026-09-16-p5k2w9m7qs', '2026-10-15-r8v2m4k7q9']) {
     const lesson = index.lessons.find((entry) => entry.id === id);
     assert.equal(lesson.policyVersion, BERRA_POLICY);
     assert.equal(lesson.templateContractVersion, BERRA_TEMPLATE);

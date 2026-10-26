@@ -34,11 +34,11 @@ for (const [name, value] of [
   ['private filesystem path', { path: 'C:\\work\\private\\lesson.json' }],
 ]) test(`rejects ${name}`, () => assert.match(errors(value), /prohibited private field|private filesystem path/));
 
-test('index contains the preserved historical package and the three safe catch-up packages', () => {
-  assert.equal(index.lessons.length, 4);
+test('index contains the preserved historical package and safe Architecture v1 packages', () => {
+  assert.equal(index.lessons.length, 5);
   const historicalEntry = index.lessons.find((lesson) => lesson.id === historical.id);
   assert.equal(historicalEntry.path, `${historical.id}/homework.json`);
-  for (const id of ['2026-09-08-c4m9q7z2kp', '2026-09-14-v8d1n6r3xt', '2026-09-16-p5k2w9m7qs']) assert.equal(index.lessons.some((lesson) => lesson.id === id), true);
+  for (const id of ['2026-09-08-c4m9q7z2kp', '2026-09-14-v8d1n6r3xt', '2026-09-16-p5k2w9m7qs', '2026-10-15-r8v2m4k7q9']) assert.equal(index.lessons.some((lesson) => lesson.id === id), true);
   assert.deepEqual(validatePublicData(index, 'index'), []);
   assert.equal(JSON.stringify(index).includes('A322BBDD'), false);
 });

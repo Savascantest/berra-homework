@@ -1,0 +1,91 @@
+{
+  "id": "2026-10-15-r8v2m4k7q9",
+  "date": "2026-10-15",
+  "dateLabel": "15 October 2026",
+  "title": "Travel, Never & Everyday Recommendations",
+  "subtitle": "Use Present Perfect with never, describe places, and make practical recommendations.",
+  "policyVersion": "berra-lesson-evidence-first@1",
+  "templateContractVersion": "berra-flexible-unit-workspace@1",
+  "assessmentPolicyVersion": "berra-formative-unit-and-final-practice@1",
+  "assessment": { "formative": true, "feedback": true, "retryAllowed": true, "resetAllowed": true, "scoreThreshold": null },
+  "units": [
+    {
+      "id": "never-places-and-recommendations",
+      "number": 1,
+      "title": "Never, Places & Recommendations",
+      "tagline": "Connect life experiences, travel reading and useful everyday questions.",
+      "notes": [
+        "Use Present Perfect with never for an experience that has not happened: I have never visited a castle.",
+        "Never is already negative. Do not add don't or haven't: I have never travelled by underground is correct.",
+        "Ask about frequency with How often ...? and answer with always, usually, sometimes or never.",
+        "Use recommend + verb-ing for advice: I recommend reading while you wait."
+      ],
+      "vocabulary": [
+        { "word": "underground", "meaning": "a city railway system below the streets; also called the metro", "example": "We took the underground to the museum." },
+        { "word": "station", "meaning": "a place where trains or buses arrive and leave", "example": "The station is near the old market." },
+        { "word": "recommend", "meaning": "to say that something is a good idea", "example": "I recommend trying the local soup." },
+        { "word": "castle", "meaning": "a large, strong building from the past", "example": "The castle stands above the town." },
+        { "word": "forest", "meaning": "a large area full of trees", "example": "They walked through the forest with a guide." },
+        { "word": "border", "meaning": "the line between two countries or areas", "example": "The village is close to the border." }
+      ],
+      "grammar": [
+        { "title": "Present Perfect with never", "rule": "have/has + never + past participle kullanılır. Hayatta hiç yaşanmamış bir deneyimi anlatır; belirli bir zaman söylemeyiz.", "examples": ["I have never seen a bear in the wild.", "Lena has never travelled by underground.", "Have you ever visited a castle? — No, I have never visited one."] },
+        { "title": "Frequency and recommendations", "rule": "How often ile alışkanlık ve sıklık sorulur. Tavsiye verirken recommend + -ing kullan: I recommend taking the train.", "examples": ["How often do you take the underground?", "I usually take it at weekends.", "What do you recommend doing while waiting for a train?"] }
+      ],
+      "remember": "have/has + never + üçüncü hâl: have never seen, has never gone, have never been.",
+      "watchOut": "'I haven't never been' çift olumsuzdur. 'I have never been' kullan.",
+      "practice": [
+        { "id": "p15-u1-p1", "prompt": "I have never ___ a castle.", "options": ["visited", "visit", "visiting"], "answerIndex": 0, "hint": "After have, use the past participle." },
+        { "id": "p15-u1-p2", "prompt": "Choose the accurate sentence about a bear.", "options": ["She has never saw a bear.", "She has never seen a bear.", "She never has see a bear."], "answerIndex": 1 },
+        { "id": "p15-u1-p3", "prompt": "How often do you take the underground?", "options": ["At the station.", "By train.", "I usually take it on Fridays."], "answerIndex": 2 },
+        { "id": "p15-u1-p4", "prompt": "Choose the best recommendation.", "options": ["I recommend reading while you wait.", "I recommend to read while you wait.", "I recommend read while you wait."], "answerIndex": 0 },
+        { "id": "p15-u1-p5", "prompt": "A place where trains arrive and leave is a ___.", "options": ["border", "station", "forest"], "answerIndex": 1 },
+        { "id": "p15-u1-p6", "prompt": "We have never ___ by underground.", "options": ["travel", "travelling", "travelled"], "answerIndex": 2 },
+        { "id": "p15-u1-p7", "prompt": "Which word means 'to say something is a good idea'?", "options": ["recommend", "wait", "arrive"], "answerIndex": 0 },
+        { "id": "p15-u1-p8", "prompt": "Murat ___ visits the library after work; not every day, but quite often.", "options": ["never", "usually", "yesterday"], "answerIndex": 1 },
+        { "id": "p15-u1-p9", "prompt": "Have you ever ___ in a forest?", "options": ["walk", "walked", "walking"], "answerIndex": 1 },
+        { "id": "p15-u1-p10", "prompt": "What do you recommend ___ at the station?", "options": ["do", "to do", "doing"], "answerIndex": 2 }
+      ],
+      "reading": {
+        "title": "Beyond the Forest",
+        "text": "Nora has never believed stories about vampires, but she loves visiting old places. Last month, she travelled to a town beyond a large forest. The town had a stone castle, narrow streets and a small railway station. A guide explained that the region has many wild animals, so visitors should stay on the paths. Nora took photographs of the castle and then waited for her train in a café near the station. She recommends reading about a place before visiting it, because history can make a journey more interesting.",
+        "questions": [
+          { "id": "p15-u1-r1", "prompt": "What does Nora love doing?", "options": ["Visiting old places", "Building railways", "Writing vampire stories"], "answerIndex": 0 },
+          { "id": "p15-u1-r2", "prompt": "When did Nora travel to the town?", "options": ["Every month", "Last month", "Next year"], "answerIndex": 1 },
+          { "id": "p15-u1-r3", "prompt": "Why should visitors stay on the paths?", "options": ["The streets are narrow.", "The train is late.", "There are wild animals in the region."], "answerIndex": 2 },
+          { "id": "p15-u1-r4", "prompt": "What does Nora recommend?", "options": ["Reading about a place before visiting", "Waiting outside all day", "Believing every old story"], "answerIndex": 0 }
+        ]
+      },
+      "listening": {
+        "title": "Waiting for the Train",
+        "script": "Ece: We have twenty minutes before the train arrives. What do you recommend doing? Omar: I recommend getting a drink and looking at the map. Have you ever been to this part of the city? Ece: No, I have never been here. I usually take the underground, so this station is new for me. Omar: Then let's find the museum on the map. It is close to the river.",
+        "questions": [
+          { "id": "p15-u1-l1", "prompt": "How long do Ece and Omar have before the train arrives?", "options": ["Ten minutes", "Twenty minutes", "An hour"], "answerIndex": 1 },
+          { "id": "p15-u1-l2", "prompt": "What does Omar recommend?", "options": ["Getting a drink and looking at the map", "Taking the underground home", "Buying a castle"], "answerIndex": 0 },
+          { "id": "p15-u1-l3", "prompt": "How does Ece usually travel?", "options": ["By boat", "By bicycle", "By underground"], "answerIndex": 2 },
+          { "id": "p15-u1-l4", "prompt": "What place is close to the river?", "options": ["The museum", "The airport", "The forest"], "answerIndex": 0 }
+        ]
+      },
+      "speaking": {
+        "title": "Practical Travel Talk",
+        "prompt": "Ask a partner two Have you ever ...? questions about places or transport. Then ask one How often ...? question and give one recommendation for a station or a journey.",
+        "support": ["Have you ever visited ...?", "I have never ...", "How often do you ...?", "I recommend ...ing."]
+      },
+      "writing": {
+        "title": "A Place to Recommend",
+        "prompt": "Write 7–9 sentences about an interesting place. Include one sentence with have never, one How often question with an answer, and one recommendation using recommend + -ing.",
+        "support": ["I have never visited ...", "How often do you ...?", "I usually ...", "I recommend ...ing because ..."]
+      }
+    }
+  ],
+  "finalQuiz": [
+    { "id": "p15-f1", "prompt": "They have never ___ the underground at night.", "options": ["use", "used", "using"], "answerIndex": 1 },
+    { "id": "p15-f2", "prompt": "Which question asks about frequency?", "options": ["How often do you visit the market?", "Have you ever visited the market?", "When did you visit the market?"], "answerIndex": 0 },
+    { "id": "p15-f3", "prompt": "I recommend ___ a book for the journey.", "options": ["take", "to take", "taking"], "answerIndex": 2 },
+    { "id": "p15-f4", "prompt": "See → saw → ___.", "options": ["seen", "see", "seeing"], "answerIndex": 0 },
+    { "id": "p15-f5", "prompt": "Which sentence is correct?", "options": ["I have never went there.", "I have never been there.", "I haven't never been there."], "answerIndex": 1 },
+    { "id": "p15-f6", "prompt": "The line between two countries is a ___.", "options": ["station", "castle", "border"], "answerIndex": 2 },
+    { "id": "p15-f7", "prompt": "A large area full of trees is a ___.", "options": ["forest", "journey", "platform"], "answerIndex": 0 },
+    { "id": "p15-f8", "prompt": "Which answer fits: How often do you read on the train?", "options": ["At the station.", "I sometimes read on the train.", "I have never read a train."], "answerIndex": 1 }
+  ]
+}

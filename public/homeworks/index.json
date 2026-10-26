@@ -1,7 +1,16 @@
 {
   "student": "Berra",
-  "defaultLessonId": "2026-09-16-p5k2w9m7qs",
+  "defaultLessonId": "2026-10-15-r8v2m4k7q9",
   "lessons": [
+    {
+      "id": "2026-10-15-r8v2m4k7q9",
+      "date": "2026-10-15",
+      "title": "Travel, Never & Everyday Recommendations",
+      "path": "2026-10-15-r8v2m4k7q9/homework.json",
+      "policyVersion": "berra-lesson-evidence-first@1",
+      "templateContractVersion": "berra-flexible-unit-workspace@1",
+      "assessmentPolicyVersion": "berra-formative-unit-and-final-practice@1"
+    },
     {
       "id": "2026-09-16-p5k2w9m7qs",
       "date": "2026-09-16",
